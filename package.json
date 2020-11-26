@@ -1,0 +1,21 @@
+{
+    "name": "space-torm-backend",
+    "version": "1.0.0",
+    "description": "backend of space-torm",
+    "main": "index.js",
+    "dependencies": {
+        "axios": "^0.21.0",
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.6"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "author": "eka-dyah",
+    "license": "ISC"
+}
