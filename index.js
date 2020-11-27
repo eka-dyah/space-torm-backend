@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const logger = require("morgan");
-const HttpError = require("utils/HttpError");
+const HttpError = require("./utils/HttpError");
 
 const app = express();
 

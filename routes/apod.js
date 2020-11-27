@@ -1,5 +1,5 @@
 const express = require("express");
-const HttpError = require("../../weather-backend/models/http-error");
+const HttpError = require("../utils/HttpError");
 const { default: Axios } = require("axios");
 
 const route = express.Router();

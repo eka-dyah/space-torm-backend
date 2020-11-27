@@ -1,6 +1,6 @@
 const express = require("express");
 const { default: Axios } = require("axios");
-const HttpError = require("../../weather-backend/models/http-error");
+const HttpError = require("../utils/HttpError");
 
 const route = express.Router();
 
@@ -14,7 +14,7 @@ route.route("/").get(async (req, res, next) => {
 	} catch (error) {
 		return next(new HttpError("Something Error", 500));
 	}
-	
+
 	res.json(response.data);
 });
 
